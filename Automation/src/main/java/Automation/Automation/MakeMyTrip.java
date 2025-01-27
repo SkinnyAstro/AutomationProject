@@ -96,7 +96,7 @@ public class MakeMyTrip {
 		  WebElement Search = driver.findElement(By.xpath("//p[@class='makeFlex vrtlCenter ']/a[@class='primaryBtn font24 latoBold widgetSearchBtn ']"));
 		  Actions src = new Actions(driver);
 		  src.moveToElement(Search).click().build().perform();
-		  Thread.sleep(2000);
+		  Thread.sleep(5000);
 		  
 		  
 //		  WebElement Hotels = driver.findElement(By.xpath("//span[@class='headerIconTextAlignment chNavText darkGreyText' and text()='Hotels']"));
