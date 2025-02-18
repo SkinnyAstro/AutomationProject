@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Automation">
+    <test name = "Script 1">
+        <classes>
+            <class name ="com.test.MakeMyTrip"/>
+        </classes>
+
+    </test>
+
+</suite>

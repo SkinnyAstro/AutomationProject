@@ -3,12 +3,9 @@ package Automation.Automation;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-
 public class Login {
 	ChromeDriver driver;
 	String url = "https://practicetestautomation.com/practice-test-login/";
-	
 	
 	public void invokeBrowser() {
 		 driver = new ChromeDriver();
@@ -26,15 +23,13 @@ public class Login {
 		Thread.sleep(5000);
 	}
 	
-	public void logout() {
-		driver.close();
-	}
+
 	
-	public static void main(String[] args) throws InterruptedException {
-		Login lg  = new Login();
-		lg.invokeBrowser();
-		lg.login();
-		lg.logout();
-	}
+//	public static void main(String[] args) throws InterruptedException {
+//		Login lg  = new Login();
+//		lg.invokeBrowser();
+//		lg.login();
+//		lg.logout();
+//	}
 
 }
